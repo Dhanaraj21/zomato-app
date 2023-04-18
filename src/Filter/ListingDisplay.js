@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const ListingDisplay = (props) => {
   const renderData = ({ listData }) => {
@@ -9,9 +9,9 @@ const ListingDisplay = (props) => {
           return (
             <div className="item" key={item.restaurant_id}>
               <div className="row">
-              {/* <Link to={`/details?restId=${item.restaurant_id}`}>
+              <Link to={`/details?restId=${item.restaurant_id}`}>
                       {" "}
-                      {item.restaurant_name} */}
+                      {item.restaurant_name}
                 <div className="col-md-5">
                   <img
                     className="Image"
@@ -44,7 +44,7 @@ const ListingDisplay = (props) => {
                     </span>
                   </div>
                 </div>
-                {/* </Link> */}
+                </Link>
               </div>
             </div>
           );

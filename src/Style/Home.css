@@ -1,0 +1,62 @@
+#search {
+/* 
+    height: 400px;
+  
+    background-image: url(../Assets/bg.png);
+    background-repeat: no-repeat;
+   
+    background-size: 100% 400px; */
+
+    background-image:linear-gradient(to bottom, #9D0E0E00 0%, #4F0707 100%),url(../Assets/bg.png);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    background-color: rgb(240 229 229 / 90%);
+    margin-left: 45%;
+    margin-top: 3%;
+    position: absolute;
+
+}
+
+#logo>span {
+    margin-left: -20%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 94px;
+    color: red;
+}
+
+#heading {
+    font: normal normal 600 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 15%;
+    margin-left: 36%;
+    position: absolute;
+}
+
+#dropdown {
+    width: 42%;
+    height: 50px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 22%;
+}
+
+.select {
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center
+}
+
+#select-style {
+    width: 59%;
+}

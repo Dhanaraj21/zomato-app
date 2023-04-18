@@ -1,5 +1,5 @@
 import axios from "axios";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import React, { Component } from "react";
@@ -79,10 +79,10 @@ export default class Details extends Component {
             </TabPanel>
           </Tabs>
           <div>
-            {/* <Link
+            <Link
               to={`/listing/${this.state.mealId}`} className="btn btn-danger">
               BACK
-            </Link> */}
+            </Link>
             <button className="btn btn-success" onClick={this.proceed}>
               Proceed
             </button>
